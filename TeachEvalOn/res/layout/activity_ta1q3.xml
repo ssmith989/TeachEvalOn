@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/taQ3"
+        android:padding="10dp" />
+    <RadioGroup
+        android:id="@+id/radioGroupTAQ3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+        <RadioButton
+            android:id="@+id/vgta13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/verygood"/>
+        <RadioButton
+            android:id="@+id/gta13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/good" />
+        <RadioButton
+            android:id="@+id/nta13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/nuetral" />
+        <RadioButton
+            android:id="@+id/pta13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/poor"/>
+        <RadioButton
+            android:id="@+id/vpta13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/verypoor" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/ta1q3Next"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/next" />
+
+</LinearLayout>

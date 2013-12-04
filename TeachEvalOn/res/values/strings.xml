@@ -6,14 +6,30 @@
     <string name="title">Welcome to Teacher Evaluations Online!</string>
     <string name="surveys">Surveys</string>
     <string name="exit">Exit</string>
+    <string name="verygood">Very Good</string>
+    <string name="good">Good</string>
+    <string name="nuetral">Nuetral</string>
+    <string name="poor">Poor</string>
+    <string name="startsurv">Start Survey</string>
+    <string name="verypoor">Very Poor</string>
+    <string name="pQ1">How would you rate your Professor\'s availability?</string>
+    <string name="pQ2">How would you rate your Professor\'s friendlyness?</string>
+    <string name="pQ3">How would you rate your ability to understand your Professor?</string>
+    <string name="pQ4">How would you rate your Professor\'s projects?</string>
+    <string name="pQ5">How would you rate your ability to learn from your Professor\'s lectures?</string>
+    <string name="taQ1">How would you rate your Teaching Assistant\'s availability?</string>
+    <string name="taQ2">How would you rate your Teaching Assistant\'s friendlyness?</string>
+    <string name="taQ3">How would you rate your ability to understand your Teaching Assistant?</string>
+    <string name="taQ4">How would you rate your Teaching Assistant\'s ability to help you with projects?</string>
+    <string name="taQ5">How would you rate your ability to learn from your Teaching Assistant\'s labs?</string>
     <string name="submit">Submit</string>
+    <string name="next">Next</string>
     <string name="email">Email: </string>
     <string name="profname">Professor\'s Name: </string>
     <string name="taname">Teaching Assistant\'s Name: </string>
     <string-array name="surveyTitles">
         <item>CS252 Professor</item>
-    	<item>CS252 Teaching Assistant 1</item>
-   		<item>CS252 Teaching Assistant 2</item>
+    	<item>CS252 Teaching Assistant</item>
     </string-array>
 
 </resources>

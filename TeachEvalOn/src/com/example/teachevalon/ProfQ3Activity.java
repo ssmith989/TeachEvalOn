@@ -7,16 +7,16 @@ import android.app.Activity;
 import android.content.Intent;
 
 
-public class TA1EvalActivity extends Activity{
+public class ProfQ3Activity extends Activity{
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_ta1eval);
-        Button btnTa1Start = (Button) findViewById(R.id.btnTa1Start);
-        btnTa1Start.setOnClickListener(new View.OnClickListener(){
+        setContentView(R.layout.activity_profq3);
+        Button pq3Next = (Button) findViewById(R.id.pq3Next);
+        pq3Next.setOnClickListener(new View.OnClickListener(){
         	public void onClick(View arg0){
-        		Intent t1q1 = new Intent(getApplicationContext(), TA1Q1Activity.class);
-        		startActivity(t1q1);
+        		Intent pq4 = new Intent(getApplicationContext(), ProfQ4Activity.class);
+        		startActivity(pq4);
         	}
         });
     }

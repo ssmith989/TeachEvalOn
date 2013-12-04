@@ -25,7 +25,22 @@
         <activity android:name="com.example.teachevalon.SurveysActivity"></activity>
         <activity android:name="com.example.teachevalon.ProfEvalActivity"></activity> 
         <activity android:name="com.example.teachevalon.TA1EvalActivity"></activity>       
-        <activity android:name="com.example.teachevalon.TA2EvalActivity"></activity>"
+        <activity android:name="com.example.teachevalon.TA2EvalActivity"></activity>
+         <activity android:name="com.example.teachevalon.ProfQ1Activity"></activity>
+         <activity android:name="com.example.teachevalon.ProfQ2Activity"></activity>
+         <activity android:name="com.example.teachevalon.ProfQ3Activity"></activity>
+         <activity android:name="com.example.teachevalon.ProfQ4Activity"></activity>
+         <activity android:name="com.example.teachevalon.ProfQ5Activity"></activity>
+         <activity android:name="com.example.teachevalon.TA1Q1Activity"></activity>
+         <activity android:name="com.example.teachevalon.TA1Q2Activity"></activity>
+         <activity android:name="com.example.teachevalon.TA1Q3Activity"></activity>
+         <activity android:name="com.example.teachevalon.TA1Q4Activity"></activity>
+         <activity android:name="com.example.teachevalon.TA1Q5Activity"></activity>
+         <activity android:name="com.example.teachevalon.TA2Q1Activity"></activity>
+         <activity android:name="com.example.teachevalon.TA2Q2Activity"></activity>
+         <activity android:name="com.example.teachevalon.TA2Q3Activity"></activity>
+         <activity android:name="com.example.teachevalon.TA2Q4Activity"></activity>
+         <activity android:name="com.example.teachevalon.TA2Q5Activity"></activity>"
     </application>
 
 </manifest>
