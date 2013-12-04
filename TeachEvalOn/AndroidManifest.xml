@@ -40,7 +40,9 @@
          <activity android:name="com.example.teachevalon.TA2Q2Activity"></activity>
          <activity android:name="com.example.teachevalon.TA2Q3Activity"></activity>
          <activity android:name="com.example.teachevalon.TA2Q4Activity"></activity>
-         <activity android:name="com.example.teachevalon.TA2Q5Activity"></activity>"
+         <activity android:name="com.example.teachevalon.TA2Q5Activity"></activity>
+         <activity android:name="com.example.teachevalon.MyDatabaseHelper"></activity>
+         <activity android:name="com.example.teachevalon.Table"></activity>
     </application>
 
 </manifest>
