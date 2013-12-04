@@ -11,6 +11,7 @@ import android.content.Intent;
 
 public class ProfQ5Activity extends Activity{
 	RadioButton r1, r2, r3, r4, r5;
+	MyDatabaseHelper db = new MyDatabaseHelper(this);
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -23,16 +24,36 @@ public class ProfQ5Activity extends Activity{
         r5 = (RadioButton) findViewById(R.id.vpp5);
         pq5Submit.setOnClickListener(new View.OnClickListener(){
         	public void onClick(View arg0){
-        		if(r1.isChecked()==true)
+        		if(r1.isChecked()==true){
         			ProfEvalActivity.prfq5="Very Good";
-        		if(r2.isChecked()==true)
+        		db.addSurvey(new Table(ProfEvalActivity.profNameStore, ProfEvalActivity.prfq1,
+        				ProfEvalActivity.prfq2, ProfEvalActivity.prfq3, ProfEvalActivity.prfq4,
+        				ProfEvalActivity.prfq5, "fattymoocow@gmail.com"));
+        		}
+        		if(r2.isChecked()==true){
         			ProfEvalActivity.prfq5="Good";
-        		if(r3.isChecked()==true)
+        		db.addSurvey(new Table(ProfEvalActivity.profNameStore, ProfEvalActivity.prfq1,
+        				ProfEvalActivity.prfq2, ProfEvalActivity.prfq3, ProfEvalActivity.prfq4,
+        				ProfEvalActivity.prfq5, "spenceralansmith@yahoo.com"));
+        		}
+        		if(r3.isChecked()==true){
         			ProfEvalActivity.prfq5="Nuetral";
-        		if(r4.isChecked()==true)
+        		db.addSurvey(new Table(ProfEvalActivity.profNameStore, ProfEvalActivity.prfq1,
+        				ProfEvalActivity.prfq2, ProfEvalActivity.prfq3, ProfEvalActivity.prfq4,
+        				ProfEvalActivity.prfq5, "spenceralansmith@yahoo.com"));
+        		}
+        		if(r4.isChecked()==true){
         			ProfEvalActivity.prfq5="Poor";
-        		if(r5.isChecked()==true)
+        		db.addSurvey(new Table(ProfEvalActivity.profNameStore, ProfEvalActivity.prfq1,
+        				ProfEvalActivity.prfq2, ProfEvalActivity.prfq3, ProfEvalActivity.prfq4,
+        				ProfEvalActivity.prfq5, "spenceralansmith@yahoo.com"));
+        		}
+        		if(r5.isChecked()==true){
         			ProfEvalActivity.prfq5="Very Poor";
+        		db.addSurvey(new Table(ProfEvalActivity.profNameStore, ProfEvalActivity.prfq1,
+        				ProfEvalActivity.prfq2, ProfEvalActivity.prfq3, ProfEvalActivity.prfq4,
+        				ProfEvalActivity.prfq5, "spenceralansmith@yahoo.com"));
+        		}
         		Intent i = new Intent(Intent.ACTION_SEND);
         		i.setType("message/rfc822");
         		i.putExtra(Intent.EXTRA_EMAIL  , new String[]{"spenceralansmith@yahoo.com"});
