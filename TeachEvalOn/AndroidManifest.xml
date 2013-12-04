@@ -23,7 +23,9 @@
             </intent-filter>
         </activity>
         <activity android:name="com.example.teachevalon.SurveysActivity"></activity>
-            "
+        <activity android:name="com.example.teachevalon.ProfEvalActivity"></activity> 
+        <activity android:name="com.example.teachevalon.TA1EvalActivity"></activity>       
+        <activity android:name="com.example.teachevalon.TA2EvalActivity"></activity>"
     </application>
 
 </manifest>

@@ -6,6 +6,10 @@
     <string name="title">Welcome to Teacher Evaluations Online!</string>
     <string name="surveys">Surveys</string>
     <string name="exit">Exit</string>
+    <string name="submit">Submit</string>
+    <string name="email">Email: </string>
+    <string name="profname">Professor\'s Name: </string>
+    <string name="taname">Teaching Assistant\'s Name: </string>
     <string-array name="surveyTitles">
         <item>CS252 Professor</item>
     	<item>CS252 Teaching Assistant 1</item>

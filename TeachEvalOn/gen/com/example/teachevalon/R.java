@@ -27,15 +27,27 @@ public final class R {
         public static final int ic_launcher=0x7f020000;
     }
     public static final class id {
-        public static final int action_settings=0x7f090004;
+        public static final int action_settings=0x7f09000d;
+        public static final int btnProfStart=0x7f090005;
+        public static final int btnTa1Start=0x7f090009;
+        public static final int btnTa2Start=0x7f09000c;
         public static final int exitButton=0x7f090001;
+        public static final int profName=0x7f090003;
+        public static final int profusremail=0x7f090004;
         public static final int surveyButton=0x7f090000;
-        public static final int surveysView1=0x7f090003;
+        public static final int surveysView1=0x7f090006;
+        public static final int ta1Name=0x7f090007;
+        public static final int ta1usremail=0x7f090008;
+        public static final int ta2Name=0x7f09000a;
+        public static final int ta2remail=0x7f09000b;
         public static final int textView1=0x7f090002;
     }
     public static final class layout {
         public static final int activity_main=0x7f030000;
-        public static final int activity_survey=0x7f030001;
+        public static final int activity_profeval=0x7f030001;
+        public static final int activity_survey=0x7f030002;
+        public static final int activity_ta1eval=0x7f030003;
+        public static final int activity_ta2eval=0x7f030004;
     }
     public static final class menu {
         public static final int main=0x7f080000;
@@ -43,8 +55,12 @@ public final class R {
     public static final class string {
         public static final int action_settings=0x7f050001;
         public static final int app_name=0x7f050000;
+        public static final int email=0x7f050006;
         public static final int exit=0x7f050004;
+        public static final int profname=0x7f050007;
+        public static final int submit=0x7f050005;
         public static final int surveys=0x7f050003;
+        public static final int taname=0x7f050008;
         public static final int title=0x7f050002;
     }
     public static final class style {
