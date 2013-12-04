@@ -24,7 +24,7 @@
     <string name="taQ5">How would you rate your ability to learn from your Teaching Assistant\'s labs?</string>
     <string name="submit">Submit</string>
     <string name="next">Next</string>
-    <string name="email">Email: </string>
+    <string name="email">Professor\'s Email: </string>
     <string name="profname">Professor\'s Name: </string>
     <string name="taname">Teaching Assistant\'s Name: </string>
     <string-array name="surveyTitles">
