@@ -4,10 +4,12 @@
     <string name="app_name">TeachEvalOn</string>
     <string name="action_settings">Settings</string>
     <string name="title">Welcome to Teacher Evaluations Online!</string>
-    <string name="cs252prof">CS252 Professor</string>
-    <string name="cs252ta1">CS252 Teaching Assistant 1</string>
-    <string name="cs252ta2">CS252 Teaching Assistant 2</string>
     <string name="surveys">Surveys</string>
-    <string name="settings">Settings</string>
+    <string name="exit">Exit</string>
+    <string-array name="surveyTitles">
+        <item>CS252 Professor</item>
+    	<item>CS252 Teaching Assistant 1</item>
+   		<item>CS252 Teaching Assistant 2</item>
+    </string-array>
 
 </resources>
